@@ -1,0 +1,35 @@
+[project]
+name = "ailaysa"
+version = "0.1.2"
+description = "Ailaysa: An Indic NLP Toolkit featuring high-performance tokenization and future AI language tools."
+readme = "README.md"
+requires-python = ">=3.7"
+
+authors = [
+    { name = "Mukesh Anand G", email = "ai.mukeshanandg@gmail.com" },
+    { name = "Ailaysa Technologies", email = "community@ailaysa.net" }
+]
+
+license = { text = "MIT" }
+
+keywords = ["tamil", "nlp", "tokenizer", "ai", "language", "machine-learning"]
+
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Intended Audience :: Developers",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence"
+]
+
+dependencies = [
+    "tokenizers",
+    "sentencepiece"
+]
+
+[tool.setuptools.package-data]
+"ailaysa" = ["models/*"]
+
+[project.urls]
+Homepage = "https://github.com/Ailaysa-Technologies"
+Repository = "https://github.com/Ailaysa-Technologies/Asai-Tokenizer"
